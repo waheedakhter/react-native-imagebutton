@@ -1,0 +1,24 @@
+{
+  "name": "@waheed_akhter/react-native-imagebutton",
+  "version": "1.0.0",
+  "description": "An Image button for react native apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waheedakhter/react-native-imagebutton.git"
+  },
+  "keywords": [
+    "[\"react-native\"",
+    "\"button\"",
+    "\"component\"]"
+  ],
+  "author": "Waheed Akhter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waheedakhter/react-native-imagebutton/issues"
+  },
+  "homepage": "https://github.com/waheedakhter/react-native-imagebutton#readme"
+}
