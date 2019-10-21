@@ -27,14 +27,17 @@ export default class ImageButton extends Component {
           borderRadius: this.props.borderRadius ? this.props.borderRadius : 0,
           borderWidth: this.props.borderWidth ? this.props.borderWidth : 0,
           borderColor: this.props.borderColor ? this.props.borderColor : "#000",
-          overflow: "hidden"
+
+          
         }}
       >
         <ImageBackground
+
           style={{
             flex: 1,
             justifyContent: "center"
           }}
+
           source={this.props.image}
           resizeMode={
             this.props.imageResizeMode ? this.props.imageResizeMode : "contain"
@@ -86,7 +89,7 @@ export default class ImageButton extends Component {
             style={{
               color: this.props.textColor,
               alignSelf: this.props.textAlign ? this.props.textAlign : "center",
-              fontSize: this.props.textSize ? this.props.textSize : 18,
+              fontSize: this.props.textSize ? this.props.textSize : 22,
               fontWeight: this.props.textWeight
                 ? this.props.textWeight
                 : "normal"
